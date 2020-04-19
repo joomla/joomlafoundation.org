@@ -1,0 +1,46 @@
+/* Testing - active menu item fixes */
+
+ul.nav.menu.nav-stacked.nav-tabs .current a {
+    font-weight: bold;
+}
+
+aside .nav .nav-child {
+    border-left: 1px solid #ddd;
+    padding: 5px 0 5px 30px;
+    border-right: 1px solid #ddd;
+    font-size: 13px;
+}
+
+
+/*Breadcrumbs*/
+
+.breadcrumb {
+	background-color: transparent;
+	padding: 8px 15px 8px 0;
+}
+
+
+/*Body - Container*/
+
+.body .container {
+	border-radius: 0;
+  	border: none;
+  	box-shadow: none;
+}
+
+body.site {
+	background-color: #fff;
+}
+
+
+/*RWD*/
+
+@media only screen and (max-width: 480px) {
+  	.btn-toolbar .btn-group {
+    	width: 60%;
+	}
+  
+	.btn-toolbar .btn-group + .btn-group {
+    	margin-left: 0;
+	}
+}
