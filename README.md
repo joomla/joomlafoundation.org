@@ -1,1 +1,1 @@
-# foundation.joomla.org
+# joomlafoundation.org
