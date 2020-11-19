@@ -1,0 +1,82 @@
+/* general layout*/
+body {
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    line-height: 1.2;
+    color: #333;
+}
+
+body.site.fluid {
+    border-top: 0 none;
+    padding: 0;
+    background-color: #f4f6f7;
+}
+
+.body .container-fluid, .header-inner, .nav-collapse {
+    max-width: 1170px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.body .container-fluid {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,0.15);
+    box-shadow: 0 0 6px rgba(0,0,0,0.05);
+}
+
+/* header */
+.header {
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.header .container-fluid {
+    padding-top: 10px;
+}
+
+.brand img {
+    width: 200px;
+    background: #FFFFFF;
+}
+
+.navigation {
+    background: #7cbb47;
+    text-align: center;
+    margin: 0;
+}
+
+.navbar {
+    margin: 0;
+}
+
+.navigation .nav li > a {
+    color: #FFFFFF;
+    background: none !important;
+    border-radius: 0;
+}
+
+/* footer */
+.footer {
+    text-align: center;
+    background: #403c41;
+    color: white;
+    margin-top: 25px;
+    padding: 20px 0;
+}
+
+.footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+/* responsive */
+@media (min-width: 980px){
+    .brand img {
+        margin-bottom: -50px;
+    }
+
+    .nav.menu.nav-pills {
+        margin-left: 240px;
+    }
+}
