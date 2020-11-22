@@ -21,8 +21,8 @@ body.site.fluid {
 .body .container-fluid {
     padding: 20px;
     background-color: #fff;
-    border: 1px solid rgba(0,0,0,0.15);
-    box-shadow: 0 0 6px rgba(0,0,0,0.05);
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
 }
 
 /* header */
@@ -71,7 +71,7 @@ body.site.fluid {
 }
 
 /* responsive */
-@media (min-width: 980px){
+@media (min-width: 980px) {
     .brand img {
         margin-bottom: -50px;
     }
