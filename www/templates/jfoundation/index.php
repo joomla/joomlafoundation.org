@@ -119,6 +119,34 @@ else
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <jdoc:include type="head"/>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-65M1P5S3R9"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-65M1P5S3R9');
+    </script>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-WG65GCN');</script>
+    <!-- End Google Tag Manager -->
 </head>
 <body class="site <?php echo $option
 	. ' view-' . $view
@@ -128,6 +156,12 @@ else
 	. ($params->get('fluidContainer') ? ' fluid' : '')
 	. ($this->direction === 'rtl' ? ' rtl' : '');
 ?>">
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WG65GCN"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
 
 <!-- Header -->
 <header class="header" role="banner">
