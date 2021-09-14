@@ -56,6 +56,11 @@ body.site.fluid {
     border-radius: 0;
 }
 
+/* addition of background color change of navbar items on hover  */
+.navigation .nav li > a{
+    background-color: #4c831f;
+}
+
 /* footer */
 .footer {
     text-align: center;
