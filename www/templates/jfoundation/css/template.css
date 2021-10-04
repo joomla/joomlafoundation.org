@@ -6797,6 +6797,7 @@ div.modal.jviewport-width100 {
 }
 .icon-home:before {
 	content: "\21";
+	color:"red";
 }
 .icon-home-2:before {
 	content: "\e250";
