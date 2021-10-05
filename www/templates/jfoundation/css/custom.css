@@ -58,11 +58,13 @@ body.site.fluid {
 .navigation .nav li > a:hover {
     color:#7cbb47;
     background: #FFFFFF;
-   box-shadow: 2px 2px 0px 0px #d5ecb5 ;
-   transform: scale(1.3);
+
 
 }
-
+.navigation .nav li > a:active {
+color:white;
+background: #403c41;
+}
 
 /* footer */
 .footer {
