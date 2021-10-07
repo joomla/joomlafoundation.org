@@ -56,10 +56,17 @@ body.site.fluid {
     border-radius: 0;
 }
 
-/* addition of background color change of navbar items on hover  */
-.navigation .nav li > a{
-    background-color: #4c831f;
+/* Addition of change in background color on hover */
+.navigation .nav li > a:hover{
+    background-color: #345d12;
+    color: black;
 }
+
+.navigation .nav li > a:focus{
+    color: white;
+    text-decoration: underline;
+}
+
 
 /* footer */
 .footer {
