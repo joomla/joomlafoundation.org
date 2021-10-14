@@ -45,6 +45,9 @@ body.site.fluid {
     text-align: center;
     margin: 0;
 }
+.navigation:hover {
+    cursor: grab;
+}
 
 .navbar {
     margin: 0;
