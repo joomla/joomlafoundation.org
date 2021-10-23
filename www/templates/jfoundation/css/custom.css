@@ -56,6 +56,15 @@ body.site.fluid {
     border-radius: 0;
 }
 
+.navigation .nav li > a:hover {
+    color: #7cbb47;
+    background: #FFFFFF;
+}
+
+.navigation .nav li > a:active {
+    text-decoration: underline;
+}
+
 /* footer */
 .footer {
     text-align: center;
