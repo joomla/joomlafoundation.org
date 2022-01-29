@@ -42,10 +42,10 @@ sup {
 	vertical-align: baseline;
 }
 sup {
-	top: -0.5em;
+	top: -8px;
 }
 sub {
-	bottom: -0.25em;
+	bottom: -4px;
 }
 img {
 	max-width: 100%;
