@@ -268,6 +268,9 @@ a:focus {
 .span6 {
 	width: 460px;
 }
+a.span6{
+	border-radius: 50px;
+}
 .span5 {
 	width: 380px;
 }
