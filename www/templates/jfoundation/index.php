@@ -116,7 +116,16 @@ else
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $this->language; ?>" dir="<?php echo $this->direction; ?>">
+
 <head>
+
+    <!-- Adding Twittercard Metadata To The Webpage -->
+    <meta name="twitter:card" content="summary_large_image" /> <!-- twitter:card: this tag specifies the type of Twitter Card that should be displayed. -->
+    <meta name="twitter:site" content="@Username" /> <!-- twitter:site: your Twitter username, or your site or company’s username. -->
+    <meta name="twitter:title" content="Title Of The Post" /> <!-- twitter:title: the title you’d like used in the card. This could match what you’ve put in your <title> tags, but it doesn’t have to. -->
+    <meta name="twitter:description" content="Descripton" />  <!-- twitter:description: a brief description of the page that will be displayed under the title. This should be a maximum of 200 characters, and may be truncated even further when displayed. -->
+    <meta name="twitter:image" content="https://yourtwitteracount.com/images/large-profile.jpg" /><!-- twitter:image: It Could be link of the post you would like to display -->
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <jdoc:include type="head"/>
     <!-- Global site tag (gtag.js) - Google Analytics -->
